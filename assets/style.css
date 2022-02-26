@@ -1,0 +1,12 @@
+/* prevent browser automated text resizing */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  box-sizing: border-box;
+}
+
+/* This will give you the same result, and make it easier to change the box-sizing in plugins or other components that leverage other behavior.*/
+*, *:before, *:after {
+  box-sizing: inherit;
+}
