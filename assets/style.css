@@ -10,3 +10,26 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* hero */
