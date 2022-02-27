@@ -11,6 +11,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0 100px;
+}
+
 /* header */
 .header {
   display: flex;
@@ -33,3 +37,14 @@ a {
 }
 
 /* hero */
+
+.hero {
+  display: flex;
+  /* gap: 30px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-img {
+  width: 35%;
+}
